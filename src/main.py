@@ -86,7 +86,5 @@ def main(page: Page):
 
     page.update()
 
-
-if __name__ == "__main__":
-    app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
+app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
     
