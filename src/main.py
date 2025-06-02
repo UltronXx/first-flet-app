@@ -88,5 +88,5 @@ def main(page: Page):
 
 
 if __name__ == "__main__":
-    app(target=main, assets_dir="assets")
+    app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
     
